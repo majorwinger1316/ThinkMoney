@@ -1,0 +1,70 @@
+.gold{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.gold p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.gold h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.gold-table{
+    border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.gold-table th,
+.gold-table td {
+    padding: 10px; 
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.addgold-button{
+  background-color: #3C3633;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 50%;
+  margin: 30px auto; /* Center horizontally */
+  display: block;
+}
+
+.addgold-button:hover{
+    color: white;
+    font-size: 25px;
+    transition: font-size 0.1s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+    .gold{
+      padding-bottom: 20px;
+    }
+    .gold h1{
+      font-size: 24px;
+    }
+    .gold-table{
+      font-size: 10px;
+    }
+    .addgold-button{
+      font-size: 16px;
+    }
+  }

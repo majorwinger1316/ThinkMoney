@@ -1,0 +1,52 @@
+.investment{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.quesans{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: black;
+    font-size: 20px;
+}
+
+.offer h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.investbutt{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.investbutt button{
+    font-size: 20px; /* Increase font size */
+    padding: 10px 20px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #3C3633;
+    margin-bottom: 30px;
+    border: none; /* Remove border */
+    color: white; /* White text color */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer;
+}
+
+.investbutt button:hover{
+    color: white;
+    font-size: 25px;
+    transition: font-size 0.1s ease-in-out;
+}
