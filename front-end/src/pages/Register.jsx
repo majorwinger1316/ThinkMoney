@@ -70,7 +70,7 @@ function Register() {
                 border: '2px solid black'
             }}>
                 <Row className="justify-content-md-center">
-                    <Col md={8}>
+                    <Col md={0}>
                     <Form action='' onSubmit={handleSubmit}>
                             <div style={{ padding: '10px', width: '35vh' }}>
                                 <Form.Group controlId="formName">

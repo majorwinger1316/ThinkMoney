@@ -9,7 +9,7 @@
     padding-bottom: 40px;
 }
 
-.heading {
+.home .heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +27,7 @@
     width: 65%;
 }
 
-.container{
+.home .container{
     display: flex;
     flex-direction: column;
     justify-content: center;

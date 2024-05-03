@@ -1,0 +1,27 @@
+.advice{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.typer {
+    font-family: 'Courier New', Courier, monospace; /* Font family */
+    font-size: 25px; /* Font size */
+    font-weight: bold; /* Font weight */
+    color: #3C3633; /* Text color */
+    text-transform: uppercase; /* Text transform */
+    letter-spacing: 1px; /* Letter spacing */
+    line-height: 1.5; /* Line height */
+    /* Add any other desired styles */
+}
+
+/* Optional: Customize the cursor */
+.cursor {
+    font-size: 25px;
+    color: #3C3633; /* Cursor color */
+    /* Add any other cursor styles */
+}

@@ -9,6 +9,7 @@ import Investment from './pages/Investment';
 import Advice from './pages/Advice';
 import Gold from './pages/Gold';
 import Equity from './pages/Equity';
+import Total from './pages/Total';
 import './App.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path='/advice' exact element={<Advice/>}/>
             <Route path='/gold' exact element={<Gold/>}/>
             <Route path='/equity' exact element={<Equity/>}/>
+            <Route path='/total' exact element={<Total/>}/>
           </Routes>
       </Router>
     </div>

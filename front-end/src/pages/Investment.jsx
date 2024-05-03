@@ -19,6 +19,9 @@ Ans. Investment is the allocation of money or resources into assets with the exp
                 <Link to="/gold">
                 <button>Gold</button>
                 </Link>
+                <Link to="/total">
+                  <button>Total Investment and Profit</button>
+                </Link>
             </div>
         </div>
     </div>

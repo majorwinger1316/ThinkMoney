@@ -1,0 +1,65 @@
+.total{
+width: 100%;
+min-height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-bottom: 40px;}
+
+.total button{
+    background-color: #3C3633;
+}
+
+.total button:hover{
+    background-color: #3C3633;
+    color: white;
+    font-size: 20px;
+    transition: font-size 0.1s ease-in-out;
+}
+
+.table h2{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.total .table{
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.total .table p{
+
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+align-items: center;
+}
+
+.total-table {
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 100%; /* Adjust the width of the table */
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; /* Center-align the table horizontally */
+    margin-right: auto; /* Center-align the table horizontally */
+}
+
+.total-table th{
+    padding: 10px; 
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 25%;
+    color: #3C3633; 
+}
+
+
+.total-table td {
+    font-size: 15px;
+}
